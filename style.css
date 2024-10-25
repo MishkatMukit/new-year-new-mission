@@ -105,9 +105,10 @@
     background-color: transparent;
     border: none;
     padding: 5px;
-    margin-top: 45px;
+    margin-top: 25px;
     position: absolute;
-    margin-left:32px ;
+    /* margin-left:32px ; */
+    
 }
 .welcome button:hover{
     transition: .2s ease-in-out;
