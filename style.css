@@ -257,6 +257,8 @@
 }
 #fifty img{
     width: 100%;
+    position:relative ;
+    left: -200px;
 }
 /* portfolioo section starts */
 .portfolio{
