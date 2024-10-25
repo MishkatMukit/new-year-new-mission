@@ -121,3 +121,38 @@
    width: 320px;
    padding-right: 130px;
 }
+
+/* venue section starts */
+
+.venue{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin: 120px 140px;
+    /* border: 1px solid black; */
+}
+.red{
+    color: rgb(255, 0, 0);
+}
+.venue-button{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 16px 32px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 48px;
+    margin-bottom: 126px;
+
+}
+.venue p{
+    line-height: 56px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 100px;
+}
