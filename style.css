@@ -1,60 +1,122 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.new-year{
+
+.new-year {
     text-align: center;
     font-family: "Merriweather", serif;
     padding: 177px 340px;
     margin: 50px 140px;
-    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('Images/Banner\ Image.png');
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('Images/Banner\ Image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 15px;
-    
+
 }
-.new-year h2{
+
+.new-year h2 {
     font-weight: 900;
     font-size: 72px;
     color: white;
 
 }
-.new-year h4{
+
+.new-year h4 {
     margin-bottom: 16px;
     font-weight: 400;
     font-size: 32px;
     color: white;
 }
+
 /* discount section */
-.discount{
+.discount {
     font-family: "Inter", sans-serif;
     text-align: center;
     display: block;
     margin-top: 120px;
 }
-.discount h2{
+
+.discount h2 {
     color: rgb(255, 0, 0);
     font-weight: 700;
     font-size: 88px;
     margin: 48px;
-    
+
 }
-.discount h4{
+
+.discount h4 {
     color: rgb(255, 0, 0);
     font-weight: 500;
     font-size: 24px;
     margin-bottom: 16px;
-    
+
 }
-.discount h3{
+
+.discount h3 {
     font-weight: 700;
     font-size: 48px;
     margin-bottom: 48px;
 }
-.discount-text{
+
+.discount-text {
     margin-bottom: 48px;
 }
-.discount-image{
+
+.discount-image {
     width: 100%;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('Images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin: 120px 140px;
+    align-items: center;
+    padding: 70px 140px 70px 126px ;
+
+}
+
+.welcome h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.welcome p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color :rgba(255, 255, 255, 0.8);
+    width: 700px;
+}
+
+.welcome button {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    margin-top: 45px;
+    position: absolute;
+    margin-left:32px ;
+}
+.welcome button:hover{
+    transition: .2s ease-in-out;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    padding: 8px;
+}
+.welcome img{
+   width: 320px;
+   padding-right: 130px;
 }
