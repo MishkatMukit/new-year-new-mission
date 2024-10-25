@@ -156,3 +156,58 @@
     padding-bottom: 0px;
     padding-top: 100px;
 }
+
+/* Bonus section starts */
+.bonus{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 120px 140px;
+}
+
+.bonus h3{
+    font-family:"Merriweather", serif ;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+.bonus h4{
+    color:rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+}
+.bonus-column-one-description{
+    
+    color: rgba(7, 2, 17, 0.6);
+    width: 400px;
+    line-height: 32px;
+    font-size: 20px;
+}
+.bonus-column-two{
+    padding: 0px 118px 0px 50px;
+}
+.bonus-column-two img{
+    width: 100%;
+    padding: 30px;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+
+}
+
+.bonus-column-three{
+    display: block;
+}
+.bonus-column-three h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(255, 0, 0);
+}
+.bonus-column-three-description{
+    color:rgba(7, 2, 17, 0.6) ;
+    width: 300px;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
